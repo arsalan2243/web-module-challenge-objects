@@ -104,9 +104,9 @@ Write a function that creates an object with name, rating, feedback, add the new
   4. should return the resulting array
 */
 
-function addReview(array) {
-  array.push ({name : 'Reyna', rating :5,  feedback : 'great eats!'});
-  console.log(array);
+function addReview(array, name, rating, feedback) {
+  array.push ({name, rating,  feedback});
+  return array
 }
 
   addReview(reviews)
